@@ -12,7 +12,11 @@ end
 # complexity.
 def monopoly_with_second_tier
   railBash={
-  :railroads=>{:pieces =>4,:rent_in_dollars=>{},:names=>{}}
+  :railroads=>{ 
+    :pieces =>4,#a key called :pieces set to 4
+    :rent_in_dollars=>{},#two keys called :rent_in_dollars and :names set to 2 empty hashes
+    :names=>{}
+    }
   }
 end
 
