@@ -42,7 +42,7 @@ def monopoly_with_third_tier
       #Those keys are pointing to empty hash
       :reading_railroad=>{},
       :pennsylvania_railroad=>{},
-      :b_and_o_railroa=>{}
+      :b_and_o_railroa=>{},
       :shortline_railroa=>{}
         }
     }
